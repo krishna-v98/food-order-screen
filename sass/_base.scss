@@ -12,3 +12,20 @@ html {
 body {
   padding-bottom: 5rem;
 }
+
+.made-for-mobile {
+  display: none;
+}
+
+@media only screen and (min-width: 460px) {
+  .body {
+    display: none;
+  }
+
+  .made-for-mobile {
+    display: block;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 1rem auto;
+  }
+}

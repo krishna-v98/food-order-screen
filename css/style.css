@@ -10,6 +10,18 @@ html {
 body {
   padding-bottom: 5rem; }
 
+.made-for-mobile {
+  display: none; }
+
+@media only screen and (min-width: 460px) {
+  .body {
+    display: none; }
+  .made-for-mobile {
+    display: block;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 1rem auto; } }
+
 .header {
   height: 35vh;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.726) 10%, rgba(0, 0, 0, 0.021)), url("https://source.unsplash.com/N_Y88TWmGwA");
