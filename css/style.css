@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 100%;
+  font-family: "NotoSans JP", sans-serif; }
+
+body {
+  padding-bottom: 5rem; }
+
+.header {
+  height: 35vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.726) 10%, rgba(0, 0, 0, 0.021)), url("https://source.unsplash.com/N_Y88TWmGwA");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  padding: 1rem; }
+  .header__profile-pic {
+    margin-right: auto;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 15px; }
+  .header__icon {
+    color: white;
+    font-size: 1.6rem;
+    margin-top: 0.7rem; }
+    .header__icon:not(:last-child) {
+      margin-right: 1.5rem; }
+
+.hotel-info {
+  background-color: #f7f7f7;
+  width: 75%;
+  margin: -6rem auto 3rem auto;
+  border-radius: 10px;
+  border: 1px solid grey;
+  padding: 2rem;
+  box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25); }
+  .hotel-info__hotel-name {
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0.1rem; }
+  .hotel-info__desc {
+    font-size: 0.85rem;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: #929292;
+    margin-top: 0.9rem; }
+  .hotel-info__desc-icons {
+    margin: 1.2rem 0;
+    display: flex;
+    justify-content: space-around; }
+    .hotel-info__desc-icons__facility {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .hotel-info__desc-icons__facility__icon {
+        font-size: 1.5rem;
+        margin-bottom: 0.7rem; }
+      .hotel-info__desc-icons__facility__desc {
+        font-size: 0.8rem; }
+
+.line {
+  border-bottom: 1px solid #999999; }
+
+.menu {
+  margin: 0 0.7rem 1rem 0.7rem; }
+  .menu__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #c9c9c9;
+    padding-bottom: 0.9rem; }
+    .menu__item__cost {
+      font-size: 1.5rem;
+      border: 1px solid gray;
+      border-radius: 10px;
+      padding: 0.8rem; }
+    .menu__item__details {
+      margin: 0 1.2rem; }
+      .menu__item__details__name {
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-bottom: 0.5rem; }
+      .menu__item__details__desc {
+        font-size: 0.85rem; }
+    .menu__item__add-cart {
+      font-size: 2rem;
+      color: #fd5d00; }
+
+.floating-button {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: #0062be;
+  color: white;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25);
+  border: 1px solid #d4d4d4; }
+  .floating-button i {
+    font-size: 1.5rem; }

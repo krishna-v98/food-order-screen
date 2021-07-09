@@ -1,0 +1,35 @@
+.menu {
+  margin: 0 0.7rem 1rem 0.7rem;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    padding-bottom: 0.9rem;
+
+    &__cost {
+      font-size: 1.5rem;
+      border: 1px solid gray;
+      border-radius: 10px;
+      padding: 0.8rem;
+    }
+
+    &__details {
+      margin: 0 1.2rem;
+      &__name {
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-bottom: 0.5rem;
+      }
+      &__desc {
+        font-size: 0.85rem;
+      }
+    }
+    &__add-cart {
+      font-size: 2rem;
+      color: rgb(253, 93, 0);
+    }
+  }
+}
